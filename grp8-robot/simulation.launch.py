@@ -20,9 +20,9 @@ def generate_launch_description():
             executable='scan_echo',
             name="scan_echo"),
         Node(
-            package='pkg_mother',
-            executable='mv_rand',
-            name="mv_rand",
+            package='tbot_pytools',
+            executable='reactive_move',
+            name="reactive_move",
             remappings=[
                 ("/multi/cmd_nav", "/cmd_vel")
             ]),

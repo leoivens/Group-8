@@ -12,8 +12,8 @@ How to install the directory:
 - Create a workspace (directory)
 - Open shell
 - Return to your workspace
-- clone and install tbot è&é"ç'_èçà&é'è
-- insert command é&ç_"'è-é&"_è
+- clone and install tbot https://bitbucket.org/imt-mobisyst/mb6-tbot
+- insert command git clone https://github.com/jpinheirolp/larm-mother.git
 
 
 Attention:
@@ -21,21 +21,21 @@ Keep in mind that, before launching each ROS2 command, you must return to your r
 
 Challange 1:
 The goal of the challange is to ensure, that the robot can move around a area and avoiding the obstacles in there:
-- launch  (èé"ç'_è(ç"'é_(
-- launch èçé"'_è(çà"é'(è
-- launch ("'éçè_(çé"(è
+- sim.launch.py  (èé"ç'_è(ç"'é_(
+- tbot.launch.py èçé"'_è(çà"é'(è
+- visualize.launch.py ("'éçè_(çé"(è
 
 How to run the challenge 1 in the simulation:
 - open shell
-- copy and paste the folloing command: é_&"è-'_"èé&-'_è
+- copy and paste the folloing command: ros2 launch challenge_1 sim.launch.py
 
 How to run the challenge 1 with a real robot:
 - open the terminal
-- copy and paste the folloing command: é&ç"-'_èé&'"-_"&-'è_
+- copy and paste the folloing command: ros2 launch challenge_1 tbot.launch.py
 
 How to run the visualization for challange 1:
 - open the terminal
-- copy and paste the folloing command: é"ç_'èç&-'_è
+- copy and paste the folloing command: ros2 launch challenge_1 visualize.py
 
 
 

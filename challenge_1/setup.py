@@ -23,7 +23,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        'reactive_move = tuto_move.reactive_move:main'
         ],
     },
 )

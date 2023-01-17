@@ -4,9 +4,6 @@ IMT Nord Europe
 The goal of the challenge is to demonstrate the capability of a robot to move in a cluttered environment with a possibility to see what the robot see.
 The Larm_mother directory allows the Kobuki robot to move around a room. Thanks to the different files, you will be able to execute an autonomous movement of the robot, scan a room, establish a map of a room and recognize various objects in its environment. You will also be able to visualize what the robot observes thanks to Rviz2, and to observe robot simulations thanks to Gazebo.
 
-All scripts are written in the python language: "'(-_çè-_è-
-The robot works with ROS2: _è-"'è_é&-_è-
-
 How to install the directory:
 - Install ros2 and Python 3
 - Create a workspace (directory)

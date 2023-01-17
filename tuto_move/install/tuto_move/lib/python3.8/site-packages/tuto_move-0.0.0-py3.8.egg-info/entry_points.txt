@@ -1,0 +1,5 @@
+[console_scripts]
+camera = tuto_move.camera:main
+move_1m = tuto_move.move_1m:main
+scan_echo = tuto_move.scan_echo:main
+

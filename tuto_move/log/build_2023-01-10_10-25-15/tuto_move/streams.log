@@ -1,0 +1,26 @@
+[0.403s] Invoking command in '/home/bot/ros2_ws/tuto_move': PYTHONPATH=/home/bot/ros2_ws/tuto_move/build/tuto_move/prefix_override:/home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/tuto_move build --build-base /home/bot/ros2_ws/tuto_move/build/tuto_move/build install --record /home/bot/ros2_ws/tuto_move/build/tuto_move/install.log --install-scripts $base/lib/tuto_move --single-version-externally-managed
+[0.525s] running egg_info
+[0.525s] writing build/tuto_move/tuto_move.egg-info/PKG-INFO
+[0.525s] writing dependency_links to build/tuto_move/tuto_move.egg-info/dependency_links.txt
+[0.525s] writing entry points to build/tuto_move/tuto_move.egg-info/entry_points.txt
+[0.525s] writing requirements to build/tuto_move/tuto_move.egg-info/requires.txt
+[0.525s] writing top-level names to build/tuto_move/tuto_move.egg-info/top_level.txt
+[0.545s] reading manifest file 'build/tuto_move/tuto_move.egg-info/SOURCES.txt'
+[0.546s] writing manifest file 'build/tuto_move/tuto_move.egg-info/SOURCES.txt'
+[0.546s] running build
+[0.546s] running build_py
+[0.546s] copying tuto_move/move_1m.py -> /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move
+[0.546s] running install
+[0.547s] running install_lib
+[0.547s] copying /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move/move_1m.py -> /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move
+[0.548s] byte-compiling /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move/move_1m.py to move_1m.cpython-38.pyc
+[0.548s] running install_data
+[0.549s] running install_egg_info
+[0.550s] removing '/home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move-0.0.0-py3.8.egg-info' (and everything under it)
+[0.550s] Copying build/tuto_move/tuto_move.egg-info to /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move-0.0.0-py3.8.egg-info
+[0.550s] running install_scripts
+[0.560s] Installing camera script to /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/tuto_move
+[0.560s] Installing move_1m script to /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/tuto_move
+[0.560s] Installing scan_echo script to /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/tuto_move
+[0.560s] writing list of installed files to '/home/bot/ros2_ws/tuto_move/build/tuto_move/install.log'
+[0.572s] Invoked command in '/home/bot/ros2_ws/tuto_move' returned '0': PYTHONPATH=/home/bot/ros2_ws/tuto_move/build/tuto_move/prefix_override:/home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/tuto_move build --build-base /home/bot/ros2_ws/tuto_move/build/tuto_move/build install --record /home/bot/ros2_ws/tuto_move/build/tuto_move/install.log --install-scripts $base/lib/tuto_move --single-version-externally-managed

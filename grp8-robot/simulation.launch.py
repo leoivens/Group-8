@@ -17,10 +17,6 @@ def generate_launch_description():
             PythonLaunchDescriptionSource([launch_file_dir, '/challenge-1.launch.py'])),
         Node(
             package='tuto_move',
-            executable='scan_echo',
-            name="scan_echo"),
-        Node(
-            package='tbot_pytools',
             executable='reactive_move',
             name="reactive_move",
             remappings=[

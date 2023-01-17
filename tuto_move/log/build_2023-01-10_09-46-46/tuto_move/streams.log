@@ -1,0 +1,50 @@
+[0.471s] Invoking command in '/home/bot/ros2_ws/tuto_move': PYTHONPATH=/home/bot/ros2_ws/tuto_move/build/tuto_move/prefix_override:/home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/tuto_move build --build-base /home/bot/ros2_ws/tuto_move/build/tuto_move/build install --record /home/bot/ros2_ws/tuto_move/build/tuto_move/install.log --install-scripts $base/lib/tuto_move --single-version-externally-managed
+[0.619s] running egg_info
+[0.620s] creating build/tuto_move/tuto_move.egg-info
+[0.620s] writing build/tuto_move/tuto_move.egg-info/PKG-INFO
+[0.620s] writing dependency_links to build/tuto_move/tuto_move.egg-info/dependency_links.txt
+[0.620s] writing entry points to build/tuto_move/tuto_move.egg-info/entry_points.txt
+[0.620s] writing requirements to build/tuto_move/tuto_move.egg-info/requires.txt
+[0.620s] writing top-level names to build/tuto_move/tuto_move.egg-info/top_level.txt
+[0.620s] writing manifest file 'build/tuto_move/tuto_move.egg-info/SOURCES.txt'
+[0.644s] reading manifest file 'build/tuto_move/tuto_move.egg-info/SOURCES.txt'
+[0.644s] writing manifest file 'build/tuto_move/tuto_move.egg-info/SOURCES.txt'
+[0.644s] running build
+[0.644s] running build_py
+[0.644s] creating /home/bot/ros2_ws/tuto_move/build/tuto_move/build
+[0.645s] creating /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib
+[0.645s] creating /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move
+[0.645s] copying tuto_move/move_1m.py -> /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move
+[0.645s] copying tuto_move/camera.py -> /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move
+[0.645s] copying tuto_move/reactive_move.py -> /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move
+[0.645s] copying tuto_move/__init__.py -> /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move
+[0.645s] copying tuto_move/scan_echo.py -> /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move
+[0.645s] copying tuto_move/move_2m.py -> /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move
+[0.645s] running install
+[0.645s] running install_lib
+[0.646s] creating /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move
+[0.646s] copying /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move/move_1m.py -> /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move
+[0.646s] copying /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move/camera.py -> /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move
+[0.646s] copying /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move/reactive_move.py -> /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move
+[0.646s] copying /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move/__init__.py -> /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move
+[0.646s] copying /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move/scan_echo.py -> /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move
+[0.646s] copying /home/bot/ros2_ws/tuto_move/build/tuto_move/build/lib/tuto_move/move_2m.py -> /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move
+[0.647s] byte-compiling /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move/move_1m.py to move_1m.cpython-38.pyc
+[0.647s] byte-compiling /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move/camera.py to camera.cpython-38.pyc
+[0.647s] byte-compiling /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move/reactive_move.py to reactive_move.cpython-38.pyc
+[0.648s] byte-compiling /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move/__init__.py to __init__.cpython-38.pyc
+[0.648s] byte-compiling /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move/scan_echo.py to scan_echo.cpython-38.pyc
+[0.648s] byte-compiling /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move/move_2m.py to move_2m.cpython-38.pyc
+[0.648s] running install_data
+[0.648s] creating /home/bot/ros2_ws/tuto_move/install/tuto_move/share/ament_index
+[0.649s] creating /home/bot/ros2_ws/tuto_move/install/tuto_move/share/ament_index/resource_index
+[0.649s] creating /home/bot/ros2_ws/tuto_move/install/tuto_move/share/ament_index/resource_index/packages
+[0.649s] copying resource/tuto_move -> /home/bot/ros2_ws/tuto_move/install/tuto_move/share/ament_index/resource_index/packages
+[0.649s] copying package.xml -> /home/bot/ros2_ws/tuto_move/install/tuto_move/share/tuto_move
+[0.649s] running install_egg_info
+[0.650s] Copying build/tuto_move/tuto_move.egg-info to /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages/tuto_move-0.0.0-py3.8.egg-info
+[0.651s] running install_scripts
+[0.663s] Installing camera script to /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/tuto_move
+[0.663s] Installing scan_echo script to /home/bot/ros2_ws/tuto_move/install/tuto_move/lib/tuto_move
+[0.663s] writing list of installed files to '/home/bot/ros2_ws/tuto_move/build/tuto_move/install.log'
+[0.678s] Invoked command in '/home/bot/ros2_ws/tuto_move' returned '0': PYTHONPATH=/home/bot/ros2_ws/tuto_move/build/tuto_move/prefix_override:/home/bot/ros2_ws/tuto_move/install/tuto_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/tuto_move build --build-base /home/bot/ros2_ws/tuto_move/build/tuto_move/build install --record /home/bot/ros2_ws/tuto_move/build/tuto_move/install.log --install-scripts $base/lib/tuto_move --single-version-externally-managed

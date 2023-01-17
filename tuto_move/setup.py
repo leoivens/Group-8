@@ -20,9 +20,11 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+        'reactive_move = tuto_move.reactive_move:move',
         'scan_echo = tuto_move.scan_echo:main',
         'move_1m = tuto_move.move_1m:main',
-        'camera = tuto_move.camera:main'
+        'camera = tuto_move.camera:main',
+        'test = tbot_pytools.test:move'
         ],
     },
 )

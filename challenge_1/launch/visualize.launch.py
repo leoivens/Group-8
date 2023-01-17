@@ -17,6 +17,6 @@ def generate_launch_description():
             ),
         Node(package='rviz2',
              executable='rviz2',
-             arguments=['-d', os.path.join('/home/bot/ros2_ws/tuto_vision/tuto_vision', 'rviz2.config.challenge1.rviz')])
+             arguments=['-d', os.path.join('/home/bot/ros2_ws/Group-8/tuto_vision/tuto_vision', 'rviz2.config.challenge1.rviz')])
     ])
 

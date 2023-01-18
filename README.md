@@ -18,9 +18,9 @@ Keep in mind that, before launching each ROS2 command, you must return to your r
 
 Challange 1:
 The goal of the challange is to ensure, that the robot can move around a area and avoiding the obstacles in there:
-- sim.launch.py  (èé"ç'_è(ç"'é_(
-- tbot.launch.py èçé"'_è(çà"é'(è
-- visualize.launch.py ("'éçè_(çé"(è
+- sim.launch.py  
+- tbot.launch.py 
+- visualize.launch.py 
 
 How to run the challenge 1 in the simulation:
 - open shell

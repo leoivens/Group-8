@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
         'vision_1 = tuto_vision.vision_1:main'
+        'camera = tbot_pytools.realsense:process_img'
         ],
     },
 )

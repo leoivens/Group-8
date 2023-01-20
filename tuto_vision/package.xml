@@ -22,6 +22,9 @@
   <depend>sys</depend>
   <depend>cv2</depend>
   <depend>rclpy.node</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+
 
   <export>
     <build_type>ament_python</build_type>

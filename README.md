@@ -43,7 +43,7 @@ How to run the challenge 2 in the simulation:
 
 How to run the challenge 2 with a real robot:
 - open the terminal
-- copy and paste the folloing command: ros2 launch challenge_1 tbot.launch.py
+- copy and paste the folloing command: dgfdgdgfd
 
 
 

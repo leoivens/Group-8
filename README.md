@@ -18,7 +18,9 @@ How to install the directory:
 Attention:
 Keep in mind that, before launching each ROS2 command, you must return to your ros2 directory and launch the colcon build command in your shell, then source install/setup.bash
 
+-
 Challange 1:
+-
 The goal of the challange is to ensure, that the robot can move around a area and avoiding the obstacles in there:
 - sim.launch.py  
 - tbot.launch.py 

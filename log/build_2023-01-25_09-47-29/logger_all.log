@@ -1,0 +1,264 @@
+[0.090s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.090s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa15950a0a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa15950a0a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa15950a5e0>)
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.111s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.111s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bot/ros2_ws/Group-8'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_1) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'challenge_1' with type 'ros.ament_python' and name 'challenge_1'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_2) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_2) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_2) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_2) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_2) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_2) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_2) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_2) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(challenge_2) by extension 'ros'
+[0.127s] DEBUG:colcon.colcon_core.package_identification:Package 'challenge_2' with type 'ros.ament_python' and name 'challenge_2'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_move) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_move) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_move) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_move) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_move) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_move) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_move) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_move) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_move) by extension 'ros'
+[0.128s] DEBUG:colcon.colcon_core.package_identification:Package 'tuto_move' with type 'ros.ament_python' and name 'tuto_move'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_vision) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_vision) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_vision) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_vision) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_vision) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_vision) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_vision) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(tuto_vision) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'tuto_vision' with type 'ros.ament_python' and name 'tuto_vision'
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.144s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 17 installed packages in /home/bot/ros2_ws/install
+[0.144s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/bot/ros2_ws/Group-8/install
+[0.146s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 334 installed packages in /opt/ros/foxy
+[0.147s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'challenge_1' build argument 'cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'challenge_1' build argument 'cmake_target' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'challenge_1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'challenge_1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'challenge_1' build argument 'cmake_clean_first' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'challenge_1' build argument 'cmake_force_configure' from command line to 'False'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'challenge_1' build argument 'ament_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'challenge_1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.188s] Level 5:colcon.colcon_core.verb:set package 'challenge_1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.188s] DEBUG:colcon.colcon_core.verb:Building package 'challenge_1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bot/ros2_ws/Group-8/build/challenge_1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bot/ros2_ws/Group-8/install/challenge_1', 'merge_install': False, 'path': '/home/bot/ros2_ws/Group-8/challenge_1', 'symlink_install': False, 'test_result_base': None}
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'challenge_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'challenge_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bot/ros2_ws/Group-8/build/challenge_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bot/ros2_ws/Group-8/install/challenge_2', 'merge_install': False, 'path': '/home/bot/ros2_ws/Group-8/challenge_2', 'symlink_install': False, 'test_result_base': None}
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'tuto_move' build argument 'cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'tuto_move' build argument 'cmake_target' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'tuto_move' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'tuto_move' build argument 'cmake_clean_cache' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'tuto_move' build argument 'cmake_clean_first' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'tuto_move' build argument 'cmake_force_configure' from command line to 'False'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'tuto_move' build argument 'ament_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'tuto_move' build argument 'catkin_cmake_args' from command line to 'None'
+[0.189s] Level 5:colcon.colcon_core.verb:set package 'tuto_move' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.189s] DEBUG:colcon.colcon_core.verb:Building package 'tuto_move' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bot/ros2_ws/Group-8/build/tuto_move', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bot/ros2_ws/Group-8/install/tuto_move', 'merge_install': False, 'path': '/home/bot/ros2_ws/Group-8/tuto_move', 'symlink_install': False, 'test_result_base': None}
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'tuto_vision' build argument 'cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'tuto_vision' build argument 'cmake_target' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'tuto_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'tuto_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'tuto_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'tuto_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'tuto_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'tuto_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.190s] Level 5:colcon.colcon_core.verb:set package 'tuto_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.190s] DEBUG:colcon.colcon_core.verb:Building package 'tuto_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bot/ros2_ws/Group-8/build/tuto_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bot/ros2_ws/Group-8/install/tuto_vision', 'merge_install': False, 'path': '/home/bot/ros2_ws/Group-8/tuto_vision', 'symlink_install': False, 'test_result_base': None}
+[0.191s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.193s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bot/ros2_ws/Group-8/challenge_1' with build type 'ament_python'
+[0.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('challenge_1', 'ament_prefix_path')
+[0.196s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/challenge_1/share/challenge_1/hook/ament_prefix_path.ps1'
+[0.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bot/ros2_ws/Group-8/install/challenge_1/share/challenge_1/hook/ament_prefix_path.dsv'
+[0.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/challenge_1/share/challenge_1/hook/ament_prefix_path.sh'
+[0.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.203s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bot/ros2_ws/Group-8/challenge_2' with build type 'ament_python'
+[0.203s] Level 1:colcon.colcon_core.shell:create_environment_hook('challenge_2', 'ament_prefix_path')
+[0.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/challenge_2/share/challenge_2/hook/ament_prefix_path.ps1'
+[0.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bot/ros2_ws/Group-8/install/challenge_2/share/challenge_2/hook/ament_prefix_path.dsv'
+[0.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/challenge_2/share/challenge_2/hook/ament_prefix_path.sh'
+[0.206s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.206s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.211s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bot/ros2_ws/Group-8/tuto_move' with build type 'ament_python'
+[0.211s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuto_move', 'ament_prefix_path')
+[0.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/tuto_move/share/tuto_move/hook/ament_prefix_path.ps1'
+[0.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bot/ros2_ws/Group-8/install/tuto_move/share/tuto_move/hook/ament_prefix_path.dsv'
+[0.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/tuto_move/share/tuto_move/hook/ament_prefix_path.sh'
+[0.214s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.214s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.219s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bot/ros2_ws/Group-8/tuto_vision' with build type 'ament_python'
+[0.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuto_vision', 'ament_prefix_path')
+[0.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/tuto_vision/share/tuto_vision/hook/ament_prefix_path.ps1'
+[0.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bot/ros2_ws/Group-8/install/tuto_vision/share/tuto_vision/hook/ament_prefix_path.dsv'
+[0.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/tuto_vision/share/tuto_vision/hook/ament_prefix_path.sh'
+[0.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.367s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bot/ros2_ws/Group-8/challenge_1'
+[0.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.511s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bot/ros2_ws/Group-8/challenge_2'
+[0.512s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.513s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.659s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bot/ros2_ws/Group-8/tuto_move'
+[0.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.812s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bot/ros2_ws/Group-8/tuto_vision'
+[0.813s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.813s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bot/ros2_ws/Group-8/tuto_vision': PYTHONPATH=/home/bot/ros2_ws/Group-8/build/tuto_vision/prefix_override:/home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/tuto_vision build --build-base /home/bot/ros2_ws/Group-8/build/tuto_vision/build install --record /home/bot/ros2_ws/Group-8/build/tuto_vision/install.log --install-scripts $base/lib/tuto_vision --single-version-externally-managed
+[1.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bot/ros2_ws/Group-8/challenge_2': PYTHONPATH=/home/bot/ros2_ws/Group-8/build/challenge_2/prefix_override:/home/bot/ros2_ws/Group-8/install/challenge_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/challenge_2 build --build-base /home/bot/ros2_ws/Group-8/build/challenge_2/build install --record /home/bot/ros2_ws/Group-8/build/challenge_2/install.log --install-scripts $base/lib/challenge_2 --single-version-externally-managed
+[1.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bot/ros2_ws/Group-8/challenge_1': PYTHONPATH=/home/bot/ros2_ws/Group-8/build/challenge_1/prefix_override:/home/bot/ros2_ws/Group-8/install/challenge_1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/challenge_1 build --build-base /home/bot/ros2_ws/Group-8/build/challenge_1/build install --record /home/bot/ros2_ws/Group-8/build/challenge_1/install.log --install-scripts $base/lib/challenge_1 --single-version-externally-managed
+[1.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bot/ros2_ws/Group-8/tuto_move': PYTHONPATH=/home/bot/ros2_ws/Group-8/build/tuto_move/prefix_override:/home/bot/ros2_ws/Group-8/install/tuto_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/tuto_move build --build-base /home/bot/ros2_ws/Group-8/build/tuto_move/build install --record /home/bot/ros2_ws/Group-8/build/tuto_move/install.log --install-scripts $base/lib/tuto_move --single-version-externally-managed
+[1.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bot/ros2_ws/Group-8/tuto_vision' returned '0': PYTHONPATH=/home/bot/ros2_ws/Group-8/build/tuto_vision/prefix_override:/home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/tuto_vision build --build-base /home/bot/ros2_ws/Group-8/build/tuto_vision/build install --record /home/bot/ros2_ws/Group-8/build/tuto_vision/install.log --install-scripts $base/lib/tuto_vision --single-version-externally-managed
+[1.332s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/tuto_vision' for CMake module files
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/tuto_vision' for CMake config files
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/tuto_vision/lib'
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/tuto_vision/bin'
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/tuto_vision/lib/pkgconfig/tuto_vision.pc'
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages'
+[1.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuto_vision', 'pythonpath')
+[1.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/tuto_vision/share/tuto_vision/hook/pythonpath.ps1'
+[1.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bot/ros2_ws/Group-8/install/tuto_vision/share/tuto_vision/hook/pythonpath.dsv'
+[1.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/tuto_vision/share/tuto_vision/hook/pythonpath.sh'
+[1.335s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/tuto_vision/bin'
+[1.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuto_vision)
+[1.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/tuto_vision/share/tuto_vision/package.ps1'
+[1.337s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bot/ros2_ws/Group-8/install/tuto_vision/share/tuto_vision/package.dsv'
+[1.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/tuto_vision/share/tuto_vision/package.sh'
+[1.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/tuto_vision/share/tuto_vision/package.bash'
+[1.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/tuto_vision/share/tuto_vision/package.zsh'
+[1.339s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bot/ros2_ws/Group-8/install/tuto_vision/share/colcon-core/packages/tuto_vision)
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/challenge_2' for CMake module files
+[1.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bot/ros2_ws/Group-8/challenge_2' returned '0': PYTHONPATH=/home/bot/ros2_ws/Group-8/build/challenge_2/prefix_override:/home/bot/ros2_ws/Group-8/install/challenge_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/challenge_2 build --build-base /home/bot/ros2_ws/Group-8/build/challenge_2/build install --record /home/bot/ros2_ws/Group-8/build/challenge_2/install.log --install-scripts $base/lib/challenge_2 --single-version-externally-managed
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/challenge_2' for CMake config files
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/challenge_2/lib'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/challenge_2/bin'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/challenge_2/lib/pkgconfig/challenge_2.pc'
+[1.342s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/challenge_2/lib/python3.8/site-packages'
+[1.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('challenge_2', 'pythonpath')
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/challenge_2/share/challenge_2/hook/pythonpath.ps1'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bot/ros2_ws/Group-8/install/challenge_2/share/challenge_2/hook/pythonpath.dsv'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/challenge_2/share/challenge_2/hook/pythonpath.sh'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/challenge_2/bin'
+[1.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(challenge_2)
+[1.344s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/challenge_2/share/challenge_2/package.ps1'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bot/ros2_ws/Group-8/install/challenge_2/share/challenge_2/package.dsv'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/challenge_2/share/challenge_2/package.sh'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/challenge_2/share/challenge_2/package.bash'
+[1.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/challenge_2/share/challenge_2/package.zsh'
+[1.346s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bot/ros2_ws/Group-8/install/challenge_2/share/colcon-core/packages/challenge_2)
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/challenge_1' for CMake module files
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/challenge_1' for CMake config files
+[1.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bot/ros2_ws/Group-8/challenge_1' returned '0': PYTHONPATH=/home/bot/ros2_ws/Group-8/build/challenge_1/prefix_override:/home/bot/ros2_ws/Group-8/install/challenge_1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/challenge_1 build --build-base /home/bot/ros2_ws/Group-8/build/challenge_1/build install --record /home/bot/ros2_ws/Group-8/build/challenge_1/install.log --install-scripts $base/lib/challenge_1 --single-version-externally-managed
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/challenge_1/lib'
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/challenge_1/bin'
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/challenge_1/lib/pkgconfig/challenge_1.pc'
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/challenge_1/lib/python3.8/site-packages'
+[1.348s] Level 1:colcon.colcon_core.shell:create_environment_hook('challenge_1', 'pythonpath')
+[1.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/challenge_1/share/challenge_1/hook/pythonpath.ps1'
+[1.349s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bot/ros2_ws/Group-8/install/challenge_1/share/challenge_1/hook/pythonpath.dsv'
+[1.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/challenge_1/share/challenge_1/hook/pythonpath.sh'
+[1.349s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/challenge_1/bin'
+[1.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(challenge_1)
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/challenge_1/share/challenge_1/package.ps1'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bot/ros2_ws/Group-8/install/challenge_1/share/challenge_1/package.dsv'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/challenge_1/share/challenge_1/package.sh'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/challenge_1/share/challenge_1/package.bash'
+[1.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/challenge_1/share/challenge_1/package.zsh'
+[1.351s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bot/ros2_ws/Group-8/install/challenge_1/share/colcon-core/packages/challenge_1)
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/tuto_move' for CMake module files
+[1.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bot/ros2_ws/Group-8/tuto_move' returned '0': PYTHONPATH=/home/bot/ros2_ws/Group-8/build/tuto_move/prefix_override:/home/bot/ros2_ws/Group-8/install/tuto_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/tuto_move build --build-base /home/bot/ros2_ws/Group-8/build/tuto_move/build install --record /home/bot/ros2_ws/Group-8/build/tuto_move/install.log --install-scripts $base/lib/tuto_move --single-version-externally-managed
+[1.353s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/tuto_move' for CMake config files
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/tuto_move/lib'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/tuto_move/bin'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/tuto_move/lib/pkgconfig/tuto_move.pc'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/tuto_move/lib/python3.8/site-packages'
+[1.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('tuto_move', 'pythonpath')
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/tuto_move/share/tuto_move/hook/pythonpath.ps1'
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bot/ros2_ws/Group-8/install/tuto_move/share/tuto_move/hook/pythonpath.dsv'
+[1.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bot/ros2_ws/Group-8/install/tuto_move/share/tuto_move/hook/pythonpath.sh'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/bot/ros2_ws/Group-8/install/tuto_move/bin'
+[1.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tuto_move)
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/tuto_move/share/tuto_move/package.ps1'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bot/ros2_ws/Group-8/install/tuto_move/share/tuto_move/package.dsv'
+[1.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/tuto_move/share/tuto_move/package.sh'
+[1.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/tuto_move/share/tuto_move/package.bash'
+[1.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/bot/ros2_ws/Group-8/install/tuto_move/share/tuto_move/package.zsh'
+[1.357s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bot/ros2_ws/Group-8/install/tuto_move/share/colcon-core/packages/tuto_move)
+[1.357s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.357s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.357s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.358s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.362s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.362s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.362s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.371s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.372s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bot/ros2_ws/Group-8/install/local_setup.ps1'
+[1.373s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bot/ros2_ws/Group-8/install/_local_setup_util_ps1.py'
+[1.374s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bot/ros2_ws/Group-8/install/setup.ps1'
+[1.376s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bot/ros2_ws/Group-8/install/local_setup.sh'
+[1.376s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bot/ros2_ws/Group-8/install/_local_setup_util_sh.py'
+[1.376s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bot/ros2_ws/Group-8/install/setup.sh'
+[1.377s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bot/ros2_ws/Group-8/install/local_setup.bash'
+[1.378s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bot/ros2_ws/Group-8/install/setup.bash'
+[1.379s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bot/ros2_ws/Group-8/install/local_setup.zsh'
+[1.379s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bot/ros2_ws/Group-8/install/setup.zsh'

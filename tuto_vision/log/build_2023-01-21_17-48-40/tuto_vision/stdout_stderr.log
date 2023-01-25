@@ -1,0 +1,22 @@
+running egg_info
+writing build/tuto_vision/tuto_vision.egg-info/PKG-INFO
+writing dependency_links to build/tuto_vision/tuto_vision.egg-info/dependency_links.txt
+writing entry points to build/tuto_vision/tuto_vision.egg-info/entry_points.txt
+writing requirements to build/tuto_vision/tuto_vision.egg-info/requires.txt
+writing top-level names to build/tuto_vision/tuto_vision.egg-info/top_level.txt
+reading manifest file 'build/tuto_vision/tuto_vision.egg-info/SOURCES.txt'
+writing manifest file 'build/tuto_vision/tuto_vision.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tuto_vision/vision_2.py -> /home/bot/ros2_ws/Group-8/tuto_vision/build/tuto_vision/build/lib/tuto_vision
+running install
+running install_lib
+copying /home/bot/ros2_ws/Group-8/tuto_vision/build/tuto_vision/build/lib/tuto_vision/vision_2.py -> /home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision
+byte-compiling /home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/vision_2.py to vision_2.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision-0.0.0-py3.8.egg-info' (and everything under it)
+Copying build/tuto_vision/tuto_vision.egg-info to /home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision-0.0.0-py3.8.egg-info
+running install_scripts
+Installing vision_1 = tuto_vision.vision_1:maincamera script to /home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/tuto_vision
+writing list of installed files to '/home/bot/ros2_ws/Group-8/tuto_vision/build/tuto_vision/install.log'

@@ -1,0 +1,64 @@
+[1.140s] Invoking command in '/home/bot/ros2_ws/Group-8/tuto_vision': PYTHONPATH=/home/bot/ros2_ws/Group-8/build/tuto_vision/prefix_override:/home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/tuto_vision build --build-base /home/bot/ros2_ws/Group-8/build/tuto_vision/build install --record /home/bot/ros2_ws/Group-8/build/tuto_vision/install.log --install-scripts $base/lib/tuto_vision --single-version-externally-managed
+[1.351s] running egg_info
+[1.351s] creating ../build/tuto_vision/tuto_vision.egg-info
+[1.351s] writing ../build/tuto_vision/tuto_vision.egg-info/PKG-INFO
+[1.352s] writing dependency_links to ../build/tuto_vision/tuto_vision.egg-info/dependency_links.txt
+[1.352s] writing entry points to ../build/tuto_vision/tuto_vision.egg-info/entry_points.txt
+[1.352s] writing requirements to ../build/tuto_vision/tuto_vision.egg-info/requires.txt
+[1.352s] writing top-level names to ../build/tuto_vision/tuto_vision.egg-info/top_level.txt
+[1.354s] writing manifest file '../build/tuto_vision/tuto_vision.egg-info/SOURCES.txt'
+[1.396s] reading manifest file '../build/tuto_vision/tuto_vision.egg-info/SOURCES.txt'
+[1.397s] writing manifest file '../build/tuto_vision/tuto_vision.egg-info/SOURCES.txt'
+[1.397s] running build
+[1.397s] running build_py
+[1.398s] creating /home/bot/ros2_ws/Group-8/build/tuto_vision/build
+[1.399s] creating /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib
+[1.399s] creating /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision
+[1.399s] copying tuto_vision/vision_1.py -> /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision
+[1.399s] copying tuto_vision/realsense.py -> /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision
+[1.399s] copying tuto_vision/vision_2.py -> /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision
+[1.400s] copying tuto_vision/vision_3.py -> /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision
+[1.400s] copying tuto_vision/matchtemplate.py -> /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision
+[1.400s] copying tuto_vision/Knn.met.py -> /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision
+[1.400s] copying tuto_vision/vision_4.py -> /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision
+[1.400s] copying tuto_vision/__init__.py -> /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision
+[1.400s] copying tuto_vision/realsense.vision.py -> /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision
+[1.400s] copying tuto_vision/cropped.img.py -> /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision
+[1.400s] copying tuto_vision/yolo_opencv.py -> /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision
+[1.401s] running install
+[1.402s] running install_lib
+[1.403s] creating /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision
+[1.403s] copying /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision/vision_1.py -> /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision
+[1.404s] copying /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision/realsense.py -> /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision
+[1.404s] copying /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision/vision_2.py -> /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision
+[1.404s] copying /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision/vision_3.py -> /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision
+[1.404s] copying /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision/matchtemplate.py -> /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision
+[1.404s] copying /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision/Knn.met.py -> /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision
+[1.404s] copying /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision/vision_4.py -> /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision
+[1.405s] copying /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision/__init__.py -> /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision
+[1.405s] copying /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision/realsense.vision.py -> /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision
+[1.405s] copying /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision/cropped.img.py -> /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision
+[1.405s] copying /home/bot/ros2_ws/Group-8/build/tuto_vision/build/lib/tuto_vision/yolo_opencv.py -> /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision
+[1.405s] byte-compiling /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/vision_1.py to vision_1.cpython-38.pyc
+[1.408s] byte-compiling /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/realsense.py to realsense.cpython-38.pyc
+[1.409s] byte-compiling /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/vision_2.py to vision_2.cpython-38.pyc
+[1.410s] byte-compiling /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/vision_3.py to vision_3.cpython-38.pyc
+[1.410s] byte-compiling /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/matchtemplate.py to matchtemplate.cpython-38.pyc
+[1.411s] byte-compiling /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/Knn.met.py to Knn.met.cpython-38.pyc
+[1.411s] byte-compiling /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/vision_4.py to vision_4.cpython-38.pyc
+[1.412s] byte-compiling /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/__init__.py to __init__.cpython-38.pyc
+[1.412s] byte-compiling /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/realsense.vision.py to realsense.vision.cpython-38.pyc
+[1.412s] byte-compiling /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/cropped.img.py to cropped.img.cpython-38.pyc
+[1.413s] byte-compiling /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/yolo_opencv.py to yolo_opencv.cpython-38.pyc
+[1.414s] running install_data
+[1.415s] creating /home/bot/ros2_ws/Group-8/install/tuto_vision/share/ament_index
+[1.415s] creating /home/bot/ros2_ws/Group-8/install/tuto_vision/share/ament_index/resource_index
+[1.415s] creating /home/bot/ros2_ws/Group-8/install/tuto_vision/share/ament_index/resource_index/packages
+[1.415s] copying resource/tuto_vision -> /home/bot/ros2_ws/Group-8/install/tuto_vision/share/ament_index/resource_index/packages
+[1.415s] copying package.xml -> /home/bot/ros2_ws/Group-8/install/tuto_vision/share/tuto_vision
+[1.416s] running install_egg_info
+[1.417s] Copying ../build/tuto_vision/tuto_vision.egg-info to /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages/tuto_vision-0.0.0-py3.8.egg-info
+[1.418s] running install_scripts
+[1.441s] Installing vision_1 = tuto_vision.vision_1:maincamera script to /home/bot/ros2_ws/Group-8/install/tuto_vision/lib/tuto_vision
+[1.442s] writing list of installed files to '/home/bot/ros2_ws/Group-8/build/tuto_vision/install.log'
+[1.495s] Invoked command in '/home/bot/ros2_ws/Group-8/tuto_vision' returned '0': PYTHONPATH=/home/bot/ros2_ws/Group-8/build/tuto_vision/prefix_override:/home/bot/ros2_ws/Group-8/install/tuto_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/tuto_vision build --build-base /home/bot/ros2_ws/Group-8/build/tuto_vision/build install --record /home/bot/ros2_ws/Group-8/build/tuto_vision/install.log --install-scripts $base/lib/tuto_vision --single-version-externally-managed

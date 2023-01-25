@@ -1,0 +1,24 @@
+[0.417s] Invoking command in '/home/bot/ros2_ws/Group-8/tuto_vision': PYTHONPATH=/home/bot/ros2_ws/Group-8/tuto_vision/build/tuto_vision/prefix_override:/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/tuto_vision build --build-base /home/bot/ros2_ws/Group-8/tuto_vision/build/tuto_vision/build install --record /home/bot/ros2_ws/Group-8/tuto_vision/build/tuto_vision/install.log --install-scripts $base/lib/tuto_vision --single-version-externally-managed
+[0.575s] running egg_info
+[0.575s] writing build/tuto_vision/tuto_vision.egg-info/PKG-INFO
+[0.576s] writing dependency_links to build/tuto_vision/tuto_vision.egg-info/dependency_links.txt
+[0.576s] writing entry points to build/tuto_vision/tuto_vision.egg-info/entry_points.txt
+[0.576s] writing requirements to build/tuto_vision/tuto_vision.egg-info/requires.txt
+[0.576s] writing top-level names to build/tuto_vision/tuto_vision.egg-info/top_level.txt
+[0.597s] reading manifest file 'build/tuto_vision/tuto_vision.egg-info/SOURCES.txt'
+[0.597s] writing manifest file 'build/tuto_vision/tuto_vision.egg-info/SOURCES.txt'
+[0.597s] running build
+[0.597s] running build_py
+[0.598s] copying tuto_vision/vision_3.py -> /home/bot/ros2_ws/Group-8/tuto_vision/build/tuto_vision/build/lib/tuto_vision
+[0.598s] running install
+[0.598s] running install_lib
+[0.599s] copying /home/bot/ros2_ws/Group-8/tuto_vision/build/tuto_vision/build/lib/tuto_vision/vision_3.py -> /home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision
+[0.599s] byte-compiling /home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/vision_3.py to vision_3.cpython-38.pyc
+[0.600s] running install_data
+[0.600s] running install_egg_info
+[0.601s] removing '/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision-0.0.0-py3.8.egg-info' (and everything under it)
+[0.601s] Copying build/tuto_vision/tuto_vision.egg-info to /home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision-0.0.0-py3.8.egg-info
+[0.602s] running install_scripts
+[0.612s] Installing vision_1 = tuto_vision.vision_1:maincamera script to /home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/tuto_vision
+[0.612s] writing list of installed files to '/home/bot/ros2_ws/Group-8/tuto_vision/build/tuto_vision/install.log'
+[0.624s] Invoked command in '/home/bot/ros2_ws/Group-8/tuto_vision' returned '0': PYTHONPATH=/home/bot/ros2_ws/Group-8/tuto_vision/build/tuto_vision/prefix_override:/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/tuto_vision build --build-base /home/bot/ros2_ws/Group-8/tuto_vision/build/tuto_vision/build install --record /home/bot/ros2_ws/Group-8/tuto_vision/build/tuto_vision/install.log --install-scripts $base/lib/tuto_vision --single-version-externally-managed

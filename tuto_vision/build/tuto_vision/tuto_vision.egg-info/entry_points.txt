@@ -1,0 +1,3 @@
+[console_scripts]
+vision_1 = tuto_vision.vision_1:maincamera = tbot_pytools.realsense:process_img
+

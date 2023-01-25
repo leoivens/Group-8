@@ -1,0 +1,26 @@
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/vision_1.py
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/realsense.py
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/vision_2.py
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/vision_3.py
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/matchtemplate.py
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/Knn.met.py
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/__init__.py
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/yolo_opencv.py
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/__pycache__/vision_1.cpython-38.pyc
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/__pycache__/realsense.cpython-38.pyc
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/__pycache__/vision_2.cpython-38.pyc
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/__pycache__/vision_3.cpython-38.pyc
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/__pycache__/matchtemplate.cpython-38.pyc
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/__pycache__/Knn.met.cpython-38.pyc
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/__pycache__/__init__.cpython-38.pyc
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision/__pycache__/yolo_opencv.cpython-38.pyc
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/share/ament_index/resource_index/packages/tuto_vision
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/share/tuto_vision/package.xml
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision-0.0.0-py3.8.egg-info/SOURCES.txt
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision-0.0.0-py3.8.egg-info/PKG-INFO
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision-0.0.0-py3.8.egg-info/requires.txt
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision-0.0.0-py3.8.egg-info/top_level.txt
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision-0.0.0-py3.8.egg-info/dependency_links.txt
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision-0.0.0-py3.8.egg-info/zip-safe
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/python3.8/site-packages/tuto_vision-0.0.0-py3.8.egg-info/entry_points.txt
+/home/bot/ros2_ws/Group-8/tuto_vision/install/tuto_vision/lib/tuto_vision/vision_1 = tuto_vision.vision_1:maincamera

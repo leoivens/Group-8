@@ -27,24 +27,23 @@ The goal of the challange is to ensure, that the robot can move around a area an
 
 ### How to run the challenge 1 in the simulation:
 - open terminal
-- copy and paste the folloing command: ros2 launch challenge_1 sim.launch.py
+- copy and paste the folloing command: 'ros2 launch challenge_1 sim.launch.py'
 
 ### How to run the challenge 1 with a real robot:
 - open the terminal
-- copy and paste the folloing command: ros2 launch challenge_1 tbot.launch.py
+- copy and paste the folloing command: 'ros2 launch challenge_1 tbot.launch.py'
 
 ### How to run the visualization for challange 1:
 - open the terminal
-- copy and paste the folloing command: ros2 launch challenge_1 visualize.py
+- copy and paste the folloing command: 'ros2 launch challenge_1 visualize.py'
 
-## Challenge 2
---
+## Challenge 2"
 The goal of this challenge is to make the robot able to creat a map with all obstacles in a specific area. The robot is also able to detect a orange bottle. Each time the robot detect a orange bottle, it displays a detection message.
 
 ### How to run the challenge 2 with a real robot:
 - open the terminal
-- copy and paste the folloing command: ros2 launch challenge_2 tbot.launch.py
-- open another terminal and copy and paste the following command: ros2 launch challenge_2 rviz2.launch.py
+- copy and paste the folloing command: 'ros2 launch challenge_2 tbot.launch.py'
+- open another terminal and copy and paste the following command: 'ros2 launch challenge_2 rviz2.launch.py'
 
 
 

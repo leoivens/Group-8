@@ -52,7 +52,7 @@ So far the robot is able to detect an orange bottle, but there are some problems
 After the robot is able to detect the two different types of bottles, the next step is to localize the bottles. There for the robot has to detect, localize and then display the location of the bottle in a map on rviz2. 
 
 
-
+Here is the link for the video we made to explain the project and its demonstration: `https://drive.google.com/drive/folders/1--yTILK23CtbdRagHEa3vF0LbCXpAEjk` 
 
 
 

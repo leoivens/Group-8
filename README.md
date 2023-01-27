@@ -36,7 +36,7 @@ How to run the challenge 1 with a real robot:
 
 How to run the visualization for challange 1:
 - open the terminal
-- copy and paste the folloing command: ros2 launch challenge_1 visualize.py
+- copy and paste the folloing command: `ros2 launch challenge_1 visualize.py`
 
 Challenge 2
 --
